@@ -6,6 +6,6 @@ while guess_count<guess_limit:
     guess_count +=1
     if guess==secert_number:
         print("u win")
-        break
+        # break 
 else:
     print("sorry u failed")
